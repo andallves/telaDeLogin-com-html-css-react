@@ -17,10 +17,11 @@
     color: aliceblue;
     cursor: pointer;
     transition: .3rem;
+    
 }
 
 .forget a:hover {
-    color: #464646;
+    text-decoration: underline;
 }
 
 .conectado {
@@ -28,4 +29,23 @@
     align-items: center;
     justify-content: center;
     gap: .2rem;
+    color: rgb(247, 247, 247);
+    
+}
+.logup {
+    display: flex;
+    justify-content: center;
+    margin-top: .5rem;
+    color: rgb(247, 247, 247);
+}
+.logup a {
+    color: rgb(247, 247, 247);
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.logup a:hover {
+    text-decoration: underline;
 }

@@ -10,15 +10,17 @@
     top: 57px;
     left: 10px;
    
-    color: #6a6a6a;
+    color: #ffffff;
     transition: .3s;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 1.2rem;
 }
 
-.input_container input:focus ~ label {
+.input_container input:focus ~ label,
+.input_container input:valid ~ label {
     top: 25px;
 }
+
 
 .input_container input {
     width: 100%;
@@ -30,7 +32,13 @@
     border-bottom: 1px solid #f5f5f5;
     font-size: 1.2rem;
     outline: none;
-    color: #a30000;
+    color: #ffffff;
+}
+.icon {
+    color: #f5f5f5;
+    position: absolute;
+    top: 60px;
+    right: 0;
 }
 
 
