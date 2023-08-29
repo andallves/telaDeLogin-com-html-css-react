@@ -2,17 +2,15 @@
     display: flex;
     flex-direction: column;
     width: 80%;
-    
-
 }
-.forget {
+
+.options {
     display: flex;
     margin-top: 1rem;
     justify-content: space-between;
-
 }
 
-.forget a {
+.options a {
     text-decoration: none;
     color: aliceblue;
     cursor: pointer;
@@ -20,25 +18,17 @@
     
 }
 
-.forget a:hover {
+.options a:hover {
     text-decoration: underline;
 }
 
-.conectado {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: .2rem;
-    color: rgb(247, 247, 247);
-    
-}
-.logup {
+.signup {
     display: flex;
     justify-content: center;
     margin-top: .5rem;
     color: rgb(247, 247, 247);
 }
-.logup a {
+.signup a {
     color: rgb(247, 247, 247);
     text-decoration: none;
     font-weight: bold;
@@ -46,6 +36,6 @@
 
 }
 
-.logup a:hover {
+.signup a:hover {
     text-decoration: underline;
 }

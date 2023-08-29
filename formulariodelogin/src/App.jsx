@@ -1,12 +1,8 @@
 import { CiUser } from 'react-icons/ci';
-
-import FormLogin from './components/layout/FormLogin'
-
-import styles from './App.module.css'
+import FormLogin from './components/FormLogin';
+import styles from './App.module.css';
 
 function App() {
-  
-
   return (
     <section>
       <div className={styles.login_container}>
@@ -19,4 +15,4 @@ function App() {
   )
 }
 
-export default App
+export default App;
